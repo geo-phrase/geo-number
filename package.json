@@ -1,0 +1,23 @@
+{
+  "name": "@geo-phrase/geo-number",
+  "version": "0.0.1",
+  "description": "Module that converts geolocation coordinates to number both ways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geo-phrase/geo-number.git"
+  },
+  "keywords": [
+    "geo",
+    "number"
+  ],
+  "author": "Grzegorz Kućmierz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geo-phrase/geo-number/issues"
+  },
+  "homepage": "https://github.com/geo-phrase/geo-number#readme"
+}
