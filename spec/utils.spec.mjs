@@ -111,3 +111,13 @@ describe('mergeBits', () => {
     expect(mergeBits([1], [1])).toEqual([1, 1]);
   });
 });
+
+describe('Random splitBits + mergeBits', () => {
+  it ('1000 random tests', () => {
+    for (let i = 0; i < 1e3; ++i) {
+      const arr = new Array(Math.round(Math.random() * 100)).fill(0).map(n => Math.random() > 0.5 ? 1 : 0);
+      const [a, b] = splitBits(arr);
+      expect(mergeBits(a, b)).toEqual(arr);
+    }
+  });
+});
