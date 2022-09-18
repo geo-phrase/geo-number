@@ -2,9 +2,9 @@
   "name": "@geo-phrase/geo-number",
   "version": "0.0.3",
   "description": "Module that converts geolocation coordinates to number both ways",
-  "main": "index.js",
+  "main": "src/main.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/main.mjs"
   },
   "repository": {
     "type": "git",
