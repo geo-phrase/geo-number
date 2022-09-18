@@ -1,6 +1,6 @@
 {
   "name": "@geo-phrase/geo-number",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Module that converts geolocation coordinates to number both ways",
   "main": "src/main.mjs",
   "type": "module",
