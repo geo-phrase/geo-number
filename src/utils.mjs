@@ -17,7 +17,7 @@ const toBits = (num, bits) => {
   const max = 2 ** bits;
   const prec = 0.5 / max;
   const capped = Math.min(Math.round((num - prec) * max), max - 1);
-  return [...capped.toString(2).padStart(bits, '0')].slice(-bits);
+  return [...capped.toString(2).padStart(bits, '0')].slice(-bits).map(n => +n);
 };
 
 const mergeBits = (a, b) => {
